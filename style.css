@@ -1,0 +1,1210 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: url("img/aim.png"), text;
+    overflow: hidden;
+}
+
+body:before {
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background-image: var(--bg-image, url("img/bg4.jpg")); /* Default background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    transition: background-image 1s ease; /* Smooth transition when changing background image */
+}
+
+
+
+
+@keyframes duckfly0 {
+    0% {
+        left: 150%;
+        top: 10%;
+    }
+    15% {
+        left: 90%;
+        top: 55%;
+    }
+    30% {
+        left: 75%;
+        top: 40%;
+    }
+    45% {
+        left: 60%;
+        top: 25%;
+    }
+    60% {
+        left: 45%;
+        top: 30%;
+    }
+    75% {
+        left: 30%;
+        top: 40%;
+    }
+    90% {
+        left: 15%;
+        top: 55%;
+    }
+    100% {
+        left: -50%;
+        top: 10%;
+    }
+}
+
+@keyframes duckfly1 {
+    0% {
+        left: 150%;
+        top: 20%;
+    }
+    15% {
+        left: 80%;
+        top: 60%;
+    }
+    30% {
+        left: 70%;
+        top: 30%;
+    }
+    45% {
+        left: 55%;
+        top: 15%;
+    }
+    60% {
+        left: 40%;
+        top: 40%;
+    }
+    75% {
+        left: 25%;
+        top: 60%;
+    }
+    90% {
+        left: 10%;
+        top: 70%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+
+@keyframes duckfly2 {
+    0% {
+        left: 150%;
+        top: 30%;
+    }
+    15% {
+        left: 80%;
+        top: 50%;
+    }
+    30% {
+        left: 70%;
+        top: 40%;
+    }
+    45% {
+        left: 55%;
+        top: 25%;
+    }
+    60% {
+        left: 40%;
+        top: 45%;
+    }
+    75% {
+        left: 25%;
+        top: 65%;
+    }
+    90% {
+        left: 10%;
+        top: 50%;
+    }
+    100% {
+        left: -50%;
+        top: 30%;
+    }
+}
+
+
+@keyframes duckfly3 {
+    0% {
+        left: 150%;
+        top: 50%;
+    }
+    15% {
+        left: 80%;
+        top: 30%;
+    }
+    30% {
+        left: 70%;
+        top: 60%;
+    }
+    45% {
+        left: 55%;
+        top: 55%;
+    }
+    60% {
+        left: 40%;
+        top: 75%;
+    }
+    75% {
+        left: 25%;
+        top: 45%;
+    }
+    90% {
+        left: 10%;
+        top: 30%;
+    }
+    100% {
+        left: -50%;
+        top: 70%;
+    }
+}
+
+
+@keyframes duckfly4 {
+    0% {
+        left: 150%;
+        top: 5%;
+    }
+    15% {
+        left: 80%;
+        top: 35%;
+    }
+    30% {
+        left: 70%;
+        top: 48%;
+    }
+    45% {
+        left: 55%;
+        top: 72%;
+    }
+    60% {
+        left: 40%;
+        top: 46%;
+    }
+    75% {
+        left: 25%;
+        top: 85%;
+    }
+    90% {
+        left: 10%;
+        top: 26%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+
+
+
+@keyframes duckfly5 {
+    0% {
+        left: 150%;
+        top: 15%;
+    }
+    15% {
+        left: 80%;
+        top: 75%;
+    }
+    30% {
+        left: 70%;
+        top: 36%;
+    }
+    45% {
+        left: 55%;
+        top: 18%;
+    }
+    60% {
+        left: 40%;
+        top: 75%;
+    }
+    75% {
+        left: 25%;
+        top: 65%;
+    }
+    90% {
+        left: 10%;
+        top: 28%;
+    }
+    100% {
+        left: -50%;
+        top: 45%;
+    }
+}
+
+
+@keyframes duckfly6 {
+    0% {
+        left: 150%;
+        top: 20%;
+    }
+    15% {
+        left: 90%;
+        top: 45%;
+    }
+    30% {
+        left: 75%;
+        top: 50%;
+    }
+    45% {
+        left: 60%;
+        top: 23%;
+    }
+    60% {
+        left: 45%;
+        top: 35%;
+    }
+    75% {
+        left: 30%;
+        top: 50%;
+    }
+    90% {
+        left: 15%;
+        top: 65%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+@keyframes duckfly7 {
+    0% {
+        left: 150%;
+        top: 78%;
+    }
+    15% {
+        left: 80%;
+        top: 65%;
+    }
+    30% {
+        left: 70%;
+        top: 40%;
+    }
+    45% {
+        left: 55%;
+        top: 65%;
+    }
+    60% {
+        left: 40%;
+        top: 45%;
+    }
+    75% {
+        left: 25%;
+        top: 40%;
+    }
+    90% {
+        left: 10%;
+        top: 60%;
+    }
+    100% {
+        left: -50%;
+        top: 70%;
+    }
+}
+
+
+@keyframes duckfly8 {
+    0% {
+        left: 150%;
+        top: 50%;
+    }
+    15% {
+        left: 80%;
+        top: 30%;
+    }
+    30% {
+        left: 70%;
+        top: 45%;
+    }
+    45% {
+        left: 55%;
+        top: 35%;
+    }
+    60% {
+        left: 40%;
+        top: 65%;
+    }
+    75% {
+        left: 25%;
+        top: 45%;
+    }
+    90% {
+        left: 10%;
+        top: 5%;
+    }
+    100% {
+        left: -50%;
+        top: 34%;
+    }
+}
+
+
+@keyframes duckfly9 {
+    0% {
+        left: 150%;
+        top: 48%;
+    }
+    15% {
+        left: 80%;
+        top: 78%;
+    }
+    30% {
+        left: 70%;
+        top: 40%;
+    }
+    45% {
+        left: 55%;
+        top: 35%;
+    }
+    60% {
+        left: 40%;
+        top: 45%;
+    }
+    75% {
+        left: 25%;
+        top: 85%;
+    }
+    90% {
+        left: 10%;
+        top: 60%;
+    }
+    100% {
+        left: -50%;
+        top: 26%;
+    }
+}
+
+
+@keyframes duckfly10 {
+    0% {
+        left: 150%;
+        top: 5%;
+    }
+    15% {
+        left: 80%;
+        top: 35%;
+    }
+    30% {
+        left: 70%;
+        top: 48%;
+    }
+    45% {
+        left: 55%;
+        top: 72%;
+    }
+    60% {
+        left: 40%;
+        top: 46%;
+    }
+    75% {
+        left: 25%;
+        top: 85%;
+    }
+    90% {
+        left: 10%;
+        top: 26%;
+    }
+    100% {
+        left: -50%;
+        top: 5%;
+    }
+}
+
+
+
+
+@keyframes duckfly11 {
+    0% {
+        left: 150%;
+        top: 35%;
+    }
+    15% {
+        left: 80%;
+        top: 45%;
+    }
+    30% {
+        left: 70%;
+        top: 76%;
+    }
+    45% {
+        left: 55%;
+        top: 68%;
+    }
+    60% {
+        left: 40%;
+        top: 45%;
+    }
+    75% {
+        left: 25%;
+        top: 45%;
+    }
+    90% {
+        left: 10%;
+        top: 38%;
+    }
+    100% {
+        left: -50%;
+        top: 25%;
+    }
+}
+
+
+
+
+
+
+/* 
+
+@keyframes duckfly2 {
+    0% {
+        left: -50%;
+        top: 10%;
+    }
+    15% {
+        left: 15%;
+        top: 55%;
+    }
+    30% {
+        left: 30%;
+        top: 40%;
+    }
+    45% {
+        left: 45%;
+        top: 25%;
+    }
+    60% {
+        left: 60%;
+        top: 30%;
+    }
+    75% {
+        left: 75%;
+        top: 40%;
+    }
+    90% {
+        left: 90%;
+        top: 55%;
+    }
+    100% {
+        left: 150%;
+        top: 10%;
+    }
+} */
+
+
+
+@keyframes duckfly12 {
+    0% {
+        left: 150%;
+        top: 10%;
+    }
+    10% {
+        left: 90%;
+        top: 55%;
+    }
+    20% {
+        left: 75%;
+        top: 40%;
+    }
+    40% {
+        left: 60%;
+        top: 25%;
+    }
+    60% {
+        left: 45%;
+        top: 30%;
+    }
+    85% {
+        left: 30%;
+        top: 40%;
+    }
+    95% {
+        left: 15%;
+        top: 55%;
+    }
+    100% {
+        left: -50%;
+        top: 10%;
+    }
+}
+
+@keyframes duckfly13 {
+    0% {
+        left: 150%;
+        top: 20%;
+    }
+    10% {
+        left: 80%;
+        top: 60%;
+    }
+    20% {
+        left: 70%;
+        top: 30%;
+    }
+    45% {
+        left: 55%;
+        top: 15%;
+    }
+    60% {
+        left: 40%;
+        top: 40%;
+    }
+    85% {
+        left: 25%;
+        top: 60%;
+    }
+    95% {
+        left: 10%;
+        top: 70%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+
+@keyframes duckfly14 {
+    0% {
+        left: 150%;
+        top: 30%;
+    }
+    25% {
+        left: 80%;
+        top: 50%;
+    }
+    40% {
+        left: 70%;
+        top: 40%;
+    }
+    55% {
+        left: 55%;
+        top: 25%;
+    }
+    65% {
+        left: 40%;
+        top: 45%;
+    }
+    85% {
+        left: 25%;
+        top: 65%;
+    }
+    95% {
+        left: 10%;
+        top: 50%;
+    }
+    100% {
+        left: -50%;
+        top: 30%;
+    }
+}
+
+
+@keyframes duckfly15 {
+    0% {
+        left: 150%;
+        top: 50%;
+    }
+    5% {
+        left: 80%;
+        top: 30%;
+    }
+    10% {
+        left: 70%;
+        top: 60%;
+    }
+    45% {
+        left: 55%;
+        top: 55%;
+    }
+    65% {
+        left: 40%;
+        top: 75%;
+    }
+    75% {
+        left: 25%;
+        top: 45%;
+    }
+    95% {
+        left: 10%;
+        top: 30%;
+    }
+    100% {
+        left: -50%;
+        top: 70%;
+    }
+}
+
+
+@keyframes duckfly16 {
+    0% {
+        left: 150%;
+        top: 5%;
+    }
+    35% {
+        left: 80%;
+        top: 35%;
+    }
+    45% {
+        left: 70%;
+        top: 48%;
+    }
+    55% {
+        left: 55%;
+        top: 72%;
+    }
+    70% {
+        left: 40%;
+        top: 46%;
+    }
+    75% {
+        left: 25%;
+        top: 85%;
+    }
+    90% {
+        left: 10%;
+        top: 26%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+
+
+
+@keyframes duckfly17 {
+    0% {
+        left: 150%;
+        top: 15%;
+    }
+    25% {
+        left: 80%;
+        top: 75%;
+    }
+    30% {
+        left: 70%;
+        top: 36%;
+    }
+    55% {
+        left: 55%;
+        top: 18%;
+    }
+    65% {
+        left: 40%;
+        top: 75%;
+    }
+    75% {
+        left: 25%;
+        top: 65%;
+    }
+    85% {
+        left: 10%;
+        top: 28%;
+    }
+    100% {
+        left: -50%;
+        top: 45%;
+    }
+}
+
+
+@keyframes duckfly18 {
+    0% {
+        left: 150%;
+        top: 20%;
+    }
+    35% {
+        left: 90%;
+        top: 45%;
+    }
+    50% {
+        left: 75%;
+        top: 50%;
+    }
+    55% {
+        left: 60%;
+        top: 23%;
+    }
+    70% {
+        left: 45%;
+        top: 35%;
+    }
+    75% {
+        left: 30%;
+        top: 50%;
+    }
+    80% {
+        left: 15%;
+        top: 65%;
+    }
+    100% {
+        left: -50%;
+        top: 20%;
+    }
+}
+
+@keyframes duckfly19 {
+    0% {
+        left: 150%;
+        top: 78%;
+    }
+    25% {
+        left: 80%;
+        top: 65%;
+    }
+    35% {
+        left: 70%;
+        top: 40%;
+    }
+    55% {
+        left: 55%;
+        top: 65%;
+    }
+    65% {
+        left: 40%;
+        top: 45%;
+    }
+    75% {
+        left: 25%;
+        top: 40%;
+    }
+    80% {
+        left: 10%;
+        top: 60%;
+    }
+    100% {
+        left: -50%;
+        top: 70%;
+    }
+}
+
+
+@keyframes duckfly20 {
+    0% {
+        left: 150%;
+        top: 50%;
+    }
+    15% {
+        left: 80%;
+        top: 30%;
+    }
+    30% {
+        left: 70%;
+        top: 45%;
+    }
+    45% {
+        left: 55%;
+        top: 35%;
+    }
+    60% {
+        left: 40%;
+        top: 65%;
+    }
+    75% {
+        left: 25%;
+        top: 45%;
+    }
+    90% {
+        left: 10%;
+        top: 5%;
+    }
+    100% {
+        left: -50%;
+        top: 34%;
+    }
+}
+
+
+input + label {
+    position: absolute;
+    left: -100px;
+    z-index: 1;
+    width: 36px;
+    height: 34px;
+    display: block;
+    z-index: 5;
+    transform: translate(-150%, -50%);
+    background: url("img/duck_black.png") no-repeat left center;
+    background-position: -138px 0;
+    
+}
+
+input:checked + label {
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotate(120deg);
+    transform-origin: 60%;
+    z-index: -5;
+}
+
+.duck:nth-last-of-type(1) {
+    animation: duckfly0 10s linear 1s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(2) {
+    animation: duckfly1 20s linear 2s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(3) {
+    animation: duckfly2 30s linear 3s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(4) {
+    animation: duckfly3 40s linear 4s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(5) {
+    animation: duckfly4 50s linear 5s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(6) {
+    animation: duckfly5 60s linear 6s infinite;
+    cursor: url("img/aim.png"), text;
+
+}.duck:nth-last-of-type(7) {
+    animation: duckfly6 50s linear 7s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(8) {
+    animation: duckfly7 40s linear 8s infinite;
+    cursor: url("img/aim.png"), text;
+
+}.duck:nth-last-of-type(9) {
+    animation: duckfly8 30s linear 9s infinite;
+    cursor: url("img/aim.png"), text;
+
+}.duck:nth-last-of-type(10) {
+    animation: duckfly9 20s linear 10s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(11) {
+    animation: duckfly10 10s linear 11s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(12) {
+    animation: duckfly11 50s linear 12s infinite;
+    cursor: url("img/aim.png"), text;
+}
+.duck:nth-last-of-type(13) {
+    animation: duckfly13 40s linear 13s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(14) {
+    animation: duckfly14 30s linear 14s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+
+.duck:nth-last-of-type(15) {
+    animation: duckfly15 35s linear 15s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+
+.duck:nth-last-of-type(16) {
+    animation: duckfly16 40s linear 16s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+
+.duck:nth-last-of-type(17) {
+    animation: duckfly17 45s linear 17s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(18) {
+    animation: duckfly18 33s linear 18s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(19) {
+    animation: duckfly19 23s linear 19s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(20) {
+    animation: duckfly20 18s linear 20s infinite;
+    cursor: url("img/aim.png"), text;
+}
+.duck:nth-last-of-type(21) {
+    animation: duckfly12 52s linear 21s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(22) {
+    animation: duckfly16 24s linear 22s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(23) {
+    animation: duckfly3 38s linear 17s infinite;
+    cursor: url("img/aim.png"), text;
+}
+
+.duck:nth-last-of-type(24) {
+    animation: duckfly2 5s linear 19s infinite;
+    cursor: url("img/aim.png"), text;
+}
+.score {
+    position: fixed;
+    top: 10px; /* Adjust this value to position it vertically */
+    left: 50%; /* Positions the element horizontally at the center */
+    transform: translateX(-50%); /* Centers the element horizontally */
+    height: 50px;
+    line-height: 50px;
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+}
+
+.score:after {
+    content: counter(score);
+    display: inline-block;
+}
+
+.score:before {
+    content: 'Score:';
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+input:checked {
+    counter-increment: score;
+}
+
+#timeSavingApp {
+    position: fixed;
+    bottom: 30px;
+   
+    font-weight: 200;
+    background-color: #dadada; /* Adjust background color as needed */
+    border-top: 1px solid #000; /* Optional: adds a top border */
+    padding: 10px 0; /* Optional: adds some padding */
+}
+
+#timer {
+    position: fixed;
+    top: 5%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+#timerContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: red;
+}
+
+button {
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+.box {
+    background-color: #3b5892;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.box1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    background-color: #4b6ea5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sign-details {
+    text-align: center;
+}
+
+.inp {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.green {
+    background-color: #114435;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terms-link {
+    color: #4CAF50;
+}
+
+.center-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* Styles for the play and pause buttons */
+
+
+/* Styles for the score */
+
+
+
+
+.bird{
+    background:url("img/bird.png");
+    width: 100px;
+    height: 135px;
+    position: absolute;
+}
+
+.bird-1{
+    top: 5%;
+    left: -10%;
+    animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+
+    /* here steps(10) are no of birds in the picture*/
+}
+
+
+.bird-2{
+    top: 20%;
+    left: -10%;
+    animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+    /* here steps(10) are no of birds in the picture*/
+    animation-delay:3s;
+}
+
+
+.bird-3{
+    top: 2%;
+    left: -10%;
+    animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+    /* here steps(10) are no of birds in the picture*/
+    animation-delay:5s;
+}
+
+
+/*==now animation time==*/
+
+@keyframes birdFly{
+    0%{
+        background-position-x: 0px;
+   }
+
+    100%{
+       background-position-x: 1305px;
+   }
+
+}
+
+
+/*== now bird move left to right animation time==*/
+@keyframes birdMove{
+   0%{
+       left: -10%;
+   }
+
+   100%{
+       left: 110%;
+   }
+
+}
+
+
+.play_pause {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.play_pause button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.play_pause button:hover {
+    background-color: #45a049;
+}
